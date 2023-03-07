@@ -1,4 +1,11 @@
-html, body {
+@font-face {
+    src: url(../fonts/Dancing_Script/static/DancingScript-Bold.ttf);
+    font-family: DancingScript-Bold;
+}
+
+@font-face {
+    font-family: Quicksand-Medium;
+    src: url(../fonts/Quicksand/static/Quicksand-Medium.ttf);
 }
 
 .firstContainer {
@@ -186,6 +193,7 @@ hr {
 p {
     line-height: 1.7;
     font-size: 20px;
+    font-family: Quicksand-Medium;
 }
 
 
